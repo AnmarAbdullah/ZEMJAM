@@ -8,7 +8,6 @@ public class ThrowVileQuest : Quest
     public bool questDone;
     public TextMeshProUGUI youWInText;
 
-    public TextMeshProUGUI launch;
 
     public override Quest RunQuest()
     {

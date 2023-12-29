@@ -140,7 +140,7 @@ public class PlayerController : MonoBehaviour
             transform.parent = null;
             transform.parent = map.transform;
             transform.localPosition = localPos;
-            inPast = !inPast;
+            i 
         }    
     }
 }

@@ -2336,7 +2336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9059b9cf3081054d80fdcd098b72e6a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e9059b9cf3081054d80fdcd098b72e6a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4792,8 +4792,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491552994}
   m_LocalRotation: {x: -0.000000030908623, y: -0.7071068, z: -0.7071067, w: 0.000000030908616}
-  m_LocalPosition: {x: 0.0006571181, y: -0.0045643514, z: 0.009400007}
-  m_LocalScale: {x: 0.0009673536, y: 0.0100000035, z: 0.00096735405}
+  m_LocalPosition: {x: -0.07162197, y: 0.050882835, z: 0.009399988}
+  m_LocalScale: {x: 0.0009673536, y: 0.0100000035, z: 0.00096735416}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1536319076}
@@ -4801,7 +4801,7 @@ Transform:
   - {fileID: 1611203936}
   - {fileID: 2032901322}
   - {fileID: 720983819}
-  m_Father: {fileID: 4458436433354458634}
+  m_Father: {fileID: 753751265980872655}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1491552999
@@ -7229,7 +7229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ee313cb8995eb68439a5cb60266c67be, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ee313cb8995eb68439a5cb60266c67be, type: 3}
       propertyPath: m_LocalScale.x
@@ -7952,7 +7952,8 @@ Transform:
   m_LocalPosition: {x: -107.79247, y: 0, z: -85.84}
   m_LocalScale: {x: 1033.7482, y: 1033.7479, z: 99.999985}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1491552998}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8043,7 +8044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1241436352075961192
 Transform:
   m_ObjectHideFlags: 0
@@ -9064,8 +9065,7 @@ Transform:
   m_LocalPosition: {x: -33.074104, y: 0, z: -28.521578}
   m_LocalScale: {x: 1033.7482, y: 1033.7479, z: 99.999985}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1491552998}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
